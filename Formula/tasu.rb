@@ -1,25 +1,25 @@
 class Tasu < Formula
   desc "A terminal todo list that ages"
   homepage "https://github.com/mancuoj-collective/tasu"
-  version "0.14.0"
+  version "0.15.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mancuoj-collective/tasu/releases/download/v0.14.0/tasu-aarch64-apple-darwin.tar.xz"
-      sha256 "91292ef926de97e250b1be1eef4f7c60073d7924b9d92a52207d83c3857f9361"
+      url "https://github.com/mancuoj-collective/tasu/releases/download/v0.15.0/tasu-aarch64-apple-darwin.tar.xz"
+      sha256 "ff7d47ce94f3fe1b3d56d703e576050b929ceafa0d04c741e6f0dae87ae66970"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mancuoj-collective/tasu/releases/download/v0.14.0/tasu-x86_64-apple-darwin.tar.xz"
-      sha256 "f57237a7b2a76a86fa6860a87970ceff583e284357bc0638760e8bbfb020f16b"
+      url "https://github.com/mancuoj-collective/tasu/releases/download/v0.15.0/tasu-x86_64-apple-darwin.tar.xz"
+      sha256 "06450ce215ef785470b4d386fa4d8b57ae7f7db98eb204b814809291be9d0a20"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/mancuoj-collective/tasu/releases/download/v0.14.0/tasu-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "061b0f0e7eff01cb10d4b2660ec71616c94a681b3adaa2d43129959b8dcf2afd"
+      url "https://github.com/mancuoj-collective/tasu/releases/download/v0.15.0/tasu-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "463b87cd66c4e629bf52037644f87ae38e18e355e0bf2105fa2ade41f5d79ff1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mancuoj-collective/tasu/releases/download/v0.14.0/tasu-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "720d00634dd2865fad7e089761e6defb0c4f3257677056f0b8831c7436c21e26"
+      url "https://github.com/mancuoj-collective/tasu/releases/download/v0.15.0/tasu-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "55b006ac2e5b73e85b5cee7434f292e865b9b77067b2d3765b8cb191c463e137"
     end
   end
   license "Apache-2.0"
